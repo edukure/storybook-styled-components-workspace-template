@@ -1,0 +1,17 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "site": "yarn workspace @edukure/site",
+    "site:dev": "yarn site dev",
+    "ui": "yarn workspace @edukure/ui",
+    "ui:start": "yarn ui start"
+  }
+}
